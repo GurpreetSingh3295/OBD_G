@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main3_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/readHeadersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Header Files"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/headerParseOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Header Parse Output"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/vinEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="id	vinEditText"
+        android:text="1FMCU0D75AKB86662" />
+
+    <EditText
+        android:id="@+id/typeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Request Type (e.g. 150)"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Make/Model"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/rawResultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Raw JSON:"
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/decodedResultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decoded:"
+        android:textSize="14sp"/>
+
+</LinearLayout>
