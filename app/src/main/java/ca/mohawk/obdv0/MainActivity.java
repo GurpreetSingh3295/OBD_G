@@ -18,6 +18,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Arrays;
 
+
 public class MainActivity extends AppCompatActivity {
     private EditText vinEditText, typeEditText;
     private TextView resultTextView, canResult;

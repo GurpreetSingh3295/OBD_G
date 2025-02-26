@@ -1,0 +1,284 @@
+{
+    "requests": {
+        "ODOMETER": 1,
+        "ALT_ODOMETER": 10,
+        "BC_ODOMETER": 2,
+        "BC_ODOMETER_2": 21,
+        "BC_ODOMETER_3": 22,
+        "BC_ODOMETER_4": 23,
+        "BC_ODOMETER_5": 24,
+        "BC_ODOMETER_6": 25,
+        "RQ_ODOMETER": 3,
+        "RQ_ODOMETER_2": 31,
+        "RQ_ODOMETER_3": 32,
+        "RQ_ODOMETER_4": 33,
+        "RQ_ODOMETER_5": 34,
+        "RQ_ODOMETER_6": 35,
+        "RQ_ODOMETER_LA": 40,
+        "RQ_ODOMETER_LA_2": 41,
+        "BC_SPEED": 45,
+        "BC_FUEL": 50,
+        "RQ_FUEL": 51,
+        "FUEL": 52,
+        "RQ_FUEL_2": 53,
+        "RQ_FUEL_3": 54,
+        "RQ_FUEL_4": 55,
+        "RQ_FUEL_5": 56,
+        "RQ_TP1": 80,
+        "RQ_TP2": 81,
+        "RQ_TP3": 83,
+        "RQ_TP4": 82,
+        "RQ_TP5": 84,
+        "TP_WARNING": 85,
+        "YEAR_MAKE_MODEL": 150,
+        "ALL_DOORS_LOCK2": 129,
+        "RQ_TEST1": 200,
+        "RQ_TEST2": 201,
+        "RQ_TEST3": 202,
+        "RQ_TEST4": 203,
+        "RQ_TEST5": 204,
+        "RQ_TEST6": 205,
+        "RQ_TEST7": 206,
+        "RQ_TEST8": 207,
+        "RQ_TEST9": 208,
+        "RQ_TEST10": 209,
+        "RQ_TEST11": 210,
+        "RQ_TEST12": 211,
+        "RQ_TEST13": 212,
+        "RQ_TEST14": 213,
+        "RQ_TEST15": 214
+    },
+
+    "tirePressureValues": {
+        "TP_WARN_OFF": 0,
+        "TP_WARN_ON": 1
+    },
+
+    "doorAjar": {
+        "FRONTLEFT_DOORAJAR": 100,
+        "FRONTRIGHT_DOORAJAR": 101,
+        "REARLEFT_DOORAJAR": 102,
+        "REARRIGHT_DOORAJAR": 103,
+        "TRUNK_DOORAJAR": 104,
+        "HOOD_DOORAJAR": 105,
+        "ALL_DOORAJAR": 106
+    },
+    "doorAjarValues": {
+        "DOORAJAR_CLOSED": 0,
+        "DOORAJAR_OPEN": 1,
+        "FLDOOR_OPEN": 2,
+        "FRDOOR_OPEN": 4,
+        "RLDOOR_OPEN": 8,
+        "RRDOOR_OPEN": 16,
+        "TRUNK_OPEN": 32,
+        "HOOD_OPEN": 64,
+        "DOORAJAR_UNKNOWN": 128
+    },
+
+    "gear": {
+        "GEAR": 110
+    },
+    "gearValues": {
+        "GEAR_PARK": 0,
+        "GEAR_REVERSE": 1,
+        "GEAR_NEUTRAL": 2,
+        "GEAR_DRIVE": 3,
+        "GEAR_D1": 4,
+        "GEAR_D2": 5,
+        "GEAR_D3": 6,
+        "GEAR_D4": 7,
+        "GEAR_D5": 8,
+        "GEAR_D6": 9,
+        "GEAR_D7": 10,
+        "GEAR_D8": 11,
+        "GEAR_D9": 12,
+        "GEAR_D10": 13,
+        "GEAR_M1": 14,
+        "GEAR_M2": 15,
+        "GEAR_M3": 16,
+        "GEAR_M4": 17,
+        "GEAR_M5": 18,
+        "GEAR_M6": 19,
+        "GEAR_SPORT": 20,
+        "GEAR_LOW": 21,
+        "GEAR_NO_GEAR": 22,
+        "GEAR_UNKNOWN_GEAR": 23,
+        "GEAR_PARK_NEUTRAL": 24,
+        "GEAR_MANUAL": 25,
+        "GEAR_BRAKE": 26
+    },
+
+    "ignition": {
+        "RQ_IS1": 120
+    },
+    "ignitionValues": {
+        "IGNITION_LOCK": 0,
+        "IGNITION_OFF": 1,
+        "IGNITION_ACC_POS": 2,
+        "IGNITION_OFF_ACC_POS": 3,
+        "IGNITION_RUN": 4,
+        "IGNITION_START": 5,
+        "IGNITION_ON": 6,
+        "IGNITION_RUN_ACC_POS": 7,
+        "IGNITION_ERROR": 8,
+        "IGNITION_UNKNOWN": 255
+    },
+
+    "doorLock": {
+        "ALL_DOORS_LOCK": 122,
+        "FRONT_DOORS_LOCK": 123,
+        "DRIVERS_FL_DOORLOCK": 124,
+        "PASSENGERS_FR_DOORLOCK": 125,
+        "REAR_DOORS_LOCK": 126,
+        "REARLEFT_DOORLOCK": 127,
+        "REARRIGHT_DOORLOCK": 128
+    },
+    "doorLockValues": {
+        "DOORLOCK_UNLOCKED": 0,
+        "DOORLOCKED_DRIVERS": 1,
+        "DOORLOCKED_PASSENGERS": 2,
+        "DOORLOCK_FRONTLOCKED": 3,
+        "DOORLOCKED_LEFT_REAR": 4,
+        "DOORLOCKED_RIGHT_REAR": 8,
+        "DOORLOCK_REARLOCKED": 12,
+        "DOORLOCK_ALLDOORSLOCKED": 15,
+        "DOORLOCKED_BOOT_TRUNK": 16,
+        "DOORLOCKED_HOOD_BONNET": 32,
+        "DOORLOCK_ALLLOCKED": 127,
+        "DOORLOCK_STATUS_UNKNOWN": 128
+    },
+
+    "battery": {
+        "STATEOFCHARGE": 140,
+        "STATEOFHEALTH": 141,
+        "BAT_CAP_RAW_AH": 142,
+        "BAT_CAP_CALC_KWH": 143,
+        "BATTERY": 145,
+        "HV_BAT_TEMP": 146,
+        "CHARGING_ON_OFF": 147,
+        "CHARGING_SOURCE": 148
+    },
+    "chargingValues": {
+        "CHARGER_OFF": 0,
+        "CHARGER_AC": 1,
+        "CHARGER_DC": 2,
+        "CHARGING": 3,
+        "CHARGED": 4,
+        "CHARGER_FAULT": 5,
+        "CHARGER_WAIT": 6,
+        "CHARGER_READY": 7,
+        "NORMAL_CHARGING": 8,
+        "RAPID_CHARGING": 9,
+        "ONE10V_CHARGING": 10,
+        "TWO40V_CHARGING": 11,
+        "CHARGER_UNKNOWN": 255
+    },
+
+
+    "seatbelt": {
+        "ALL_SEATBELTS": 180,
+        "FRONTLEFT_SEATBELT": 181,
+        "FRONTRIGHT_SEATBELT": 182,
+        "FRONTCENTER_SEATBELT": 183,
+        "LEFTROW2_SEATBELT": 184,
+        "RIGHTROW2_SEATBELT": 185,
+        "CENTERROW2_SEATBELT": 186,
+        "FRONT_SEATBELTS": 187,
+        "ROW2_SEATBELTS": 188,
+        "ROW3_SEATBELTS": 189,
+        "LEFTROW3_SEATBELT": 190,
+        "RIGHTROW3_SEATBELT": 191,
+        "CENTERROW3_SEATBELT": 192
+    },
+    "seatbeltValues": {
+        "SEATBELT_UNFASTENED": 0,
+        "LF_SEATBELT_FASTENED": 1,
+        "RF_SEATBELT_FASTENED": 2,
+        "CF_SEATBELT_FASTENED": 4,
+        "L2_SEATBELT_FASTENED": 8,
+        "R2_SEATBELT_FASTENED": 16,
+        "C2_SEATBELT_FASTENED": 32,
+        "L3_SEATBELT_FASTENED": 64,
+        "R3_SEATBELT_FASTENED": 128,
+        "C3_SEATBELT_FASTENED": 256
+    },
+    "seatbeltLight": {
+        "FRONTLEFT_SEATBELT_LIGHT": 193,
+        "FRONTRIGHT_SEATBELT_LIGHT": 194
+    },
+    "seatbeltLightValues": {
+        "SEATBELT_LIGHT_OFF": 0,
+        "SEATBELT_LIGHT_ON": 1
+    },
+
+    "fuelType": {
+        "FUEL_UNKNOWN": 0,
+        "FUEL_GAS": 1,
+        "FUEL_DIESEL": 2,
+        "FUEL_HYBRID": 3,
+        "FUEL_PHEV": 4,
+        "FUEL_ELECTRIC": 5,
+        "FUEL_HYDROGEN": 6,
+        "FUEL_OTHER": 7,
+        "BATTERY_CAPACITY_NEW": 2,
+        "ATTRIBUTE_UNDEFINED": 255
+    },
+
+    "protocols": {
+        "CAN15765_11_500": 1,
+        "CAN15765_29_500": 2,
+        "CAN_11_500_NISSAN": 20,
+        "CAN_11_500_EXTENDED": 21,
+        "CAN_3_11_11_250": 22,
+        "CAN_3_11_11_500": 23
+    },
+
+    "odometerData": {
+        "ODO_PROTOCOL": 0,
+        "ODO_ID1": 1,
+        "ODO_ID2": 2,
+        "ODO_ID3": 3,
+        "ODO_ID4": 4,
+        "ODO_TXLEN": 5,
+        "ODO_DATA1_MATCHP1": 6,
+        "ODO_DATA2_MATCH1DATA": 7,
+        "ODO_DATA3_MATCHP2": 8,
+        "ODO_DATA4_MATCH2DATA": 9,
+        "ODO_DATA5": 10,
+        "ODO_AR1_EXTEND": 11,
+        "ODO_AR2": 12,
+        "ODO_PM1": 13,
+        "ODO_LITERS": 14
+    },
+    "odo19Data": {
+        "ODO19_RXLEN": 6,
+        "ODO19_RXBYTE1": 7,
+        "ODO19_MSBLSB": 8,
+        "ODO19_MATH": 9,
+        "ODO19_DATA1_MATCHP1": 10,
+        "ODO19_DATA2_MATCH1DATA": 11,
+        "ODO19_DATA3_MATCHP2": 12,
+        "ODO19_DATA4_MATCH2DATA": 13,
+        "ODO19_DATA5": 14,
+        "ODO19_AR1_EXTEND": 15,
+        "ODO19_AR2": 16,
+        "ODO19_PM1": 17,
+        "ODO19_LITERS": 18
+    },
+    "odomaticSupport": {
+        "ODOMATIC_SUPPORTED1": 253,
+        "ODOMATIC_SUPPORTED2": 254
+    },
+
+    "statusCodes": {
+        "SUPPORTED": 0,
+        "NOT_LICENCED": 1,
+        "UNSUPPORTED_REQUEST_TYPE": 2,
+        "WMI_NOT_SUPPORTED": 3,
+        "VIN_NOT_SUPPORTED": 3,
+        "MSG_TOO_SHORT": 4,
+        "WRONG_DATA_ENTERED": 5,
+        "WRONG_CONVERSION_TYPE": 6,
+        "NEGATIVE_RESPONSE_DATA": 7
+    }
+}
