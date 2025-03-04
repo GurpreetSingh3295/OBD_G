@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_send_fuel_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Shows connection status (e.g. "Connected to...") -->
+    <TextView
+        android:id="@+id/connectionStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connection Status"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Displays the retrieved fuel info or other data -->
+    <TextView
+        android:id="@+id/vinNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fuel Info:"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Button to trigger the fuel request -->
+    <Button
+        android:id="@+id/getButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Fuel"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>

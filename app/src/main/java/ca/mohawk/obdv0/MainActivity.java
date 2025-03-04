@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void nextActivity(View view) {
-        Intent switch2Activity2 = new Intent(MainActivity.this, MainActivity3.class);
+        Intent switch2Activity2 = new Intent(MainActivity.this, SendFuelActivity.class);
         startActivity(switch2Activity2);
     }
 
